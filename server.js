@@ -3,7 +3,7 @@ const morgan = require('morgan');
 
 const app = express();
 
-const port = 3000;
+const port = 80;
 
 app.use(morgan('tiny'));
 app.use(express.static('public'));
